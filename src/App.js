@@ -1,4 +1,4 @@
-import React, { useState } from 'react'; 
+import React, { useState } from 'react';
 import Chatbox from './chatbox/';
 import OtherUser from './otherUserBox/OtherUser';
 import './App.css';
@@ -8,7 +8,7 @@ const userIcon = require('./chatbox/assets/user.png');
 
 function App() {
 
-  const [messages, setMessages] = useState([]); 
+  const [messages, setMessages] = useState([]);
 
   const _onSendMessage = (data) => {
     const messageObj = {
@@ -24,8 +24,8 @@ function App() {
   const _updateMessageList = (messageObj) => {
     setMessages((messages) => [...messages, messageObj]);
   }
- 
-  
+
+
   return (
     <div className="App">
 
@@ -33,14 +33,9 @@ function App() {
       <div className="coverBox"></div>
 
       <Chatbox
-        // theme="#999966" 
         messages={messages}
         _onSendMessage={_onSendMessage}
-      // themeTextColor="#fff"
-      // brandName={"Stake Game"}
-      // brandLogoHeight="30px"
-      // brandLogoWidth="30px"
-      brandLogo={logo}
+        brandLogo={logo}
       />
     </div>
   );
