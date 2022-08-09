@@ -1,0 +1,90 @@
+.chatup_messagesBox {
+  height: 55vh;
+  width: 100%;
+  background: #fff;
+  word-wrap: break-word;
+  overflow-y: auto;
+}
+
+.chatup_messagesBox .chatup_noMsgYet {
+  color: #a8a8a8;
+  margin-top: 20px;
+}
+
+.chatup_messagesBox .chatup_message {
+  height: auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.chatup_messagesBox .chatup_message div:first-child {
+  -ms-flex-preferred-size: 15%;
+      flex-basis: 15%;
+  word-break: break-word;
+  white-space: pre-line;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+.chatup_messagesBox .chatup_message div:first-child img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 50px;
+}
+
+.chatup_messagesBox .chatup_message div:last-child {
+  -ms-flex-preferred-size: 85%;
+      flex-basis: 85%;
+  padding-top: 2px;
+  padding-right: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: left;
+      align-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.chatup_messagesBox .chatup_message div:last-child div {
+  background: #f2f2f2;
+  display: block;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  text-align: left;
+  word-break: break-word;
+  white-space: pre-line;
+  padding: 15px;
+  margin-bottom: 5px;
+  font-size: 13px;
+  border-radius: 5px;
+}
+
+.chatup_messagesBox .chatup_message div:last-child div p {
+  margin: 0px;
+}
+
+.chatup_messagesBox .chatup_message div:last-child div p .messageTime {
+  color: #595959;
+  font-size: 10px;
+  float: right;
+}
+
+.chatup_messagesBox .chatup_message .myMsg div {
+  background: #e6e6e6 !important;
+}
+/*# sourceMappingURL=messages.css.map */

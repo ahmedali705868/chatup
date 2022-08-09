@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAA;EACP,KAAK,EAAE,IAAI;EACX,MAAM,EAAC,IAAI;EACX,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,KAAK;EACd,aAAa,EAAE,IAAI;EACnB,UAAU,EAAE,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,OAAmB;EAC/C,UAAU,EAAE,MAAM;CACrB",
+    "sources": [
+        "chatWindow.scss"
+    ],
+    "names": [],
+    "file": "chatWindow.css"
+}

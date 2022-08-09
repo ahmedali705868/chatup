@@ -1,0 +1,54 @@
+.inputfield{
+    height: 50px;
+    width: 100%; 
+    background: #fff; 
+    display: flex; 
+    border-radius: 0px 0px 10px 10px;
+    .inputArea{
+        padding:5px;
+        height: 40px;
+        flex-basis:100%;   
+        display: flex; 
+        gap:10px; 
+        .textAreaBox{
+            flex-basis:75%;  
+            background: yellowgreen;
+            textarea{ 
+                border:none;
+                padding:10px;
+                height: 20px;
+                background: #fff;
+                width: 100%;
+                outline: none;
+                resize: none;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+            }
+        }
+        .buttonsBox{
+            background: #fff; 
+            padding-left: 10px; 
+            flex-basis: 25%;
+            height: 40px;
+            display: flex;
+            justify-content: center ;
+            align-items: center;
+            gap:5px;
+
+            div{
+                position: relative;
+                img{
+                    height: 20px;
+                    opacity: .4;
+                    cursor: pointer;
+                    &:hover{
+                        opacity: .7;
+                    }
+                }
+            }
+            
+        }
+
+        
+    }
+    
+}

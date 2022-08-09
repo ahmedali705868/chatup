@@ -1,0 +1,70 @@
+.inputfield {
+  height: 50px;
+  width: 100%;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.inputfield .inputArea {
+  padding: 5px;
+  height: 40px;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+.inputfield .inputArea .textAreaBox {
+  -ms-flex-preferred-size: 75%;
+      flex-basis: 75%;
+  background: yellowgreen;
+}
+
+.inputfield .inputArea .textAreaBox textarea {
+  border: none;
+  padding: 10px;
+  height: 20px;
+  background: #fff;
+  width: 100%;
+  outline: none;
+  resize: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.inputfield .inputArea .buttonsBox {
+  background: #fff;
+  padding-left: 10px;
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+}
+
+.inputfield .inputArea .buttonsBox div {
+  position: relative;
+}
+
+.inputfield .inputArea .buttonsBox div img {
+  height: 20px;
+  opacity: .4;
+  cursor: pointer;
+}
+
+.inputfield .inputArea .buttonsBox div img:hover {
+  opacity: .7;
+}
+/*# sourceMappingURL=inputfield.css.map */
